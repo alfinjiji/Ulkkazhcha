@@ -2,5 +2,6 @@
 header{background: rgb(23,0,97); background: linear-gradient(180deg, rgba(23,0,97,1) 9%, rgba(19,1,79,1) 68%);}
 .logo{height: 30px; width: auto;}
 .icon{height:20px; width: auto;}
-.custom-nav{background: rgb(63,34,154);
-    background: linear-gradient(180deg, rgba(63,34,154,1) 21%, rgba(35,2,140,1) 51%, rgba(61,32,154,1) 81%);}
+.custom-nav{background: rgb(63,34,154); background: linear-gradient(180deg, rgba(63,34,154,1) 21%, rgba(35,2,140,1) 51%, rgba(61,32,154,1) 81%);}
+.scrollmenu::-webkit-scrollbar { display: none; }
+.scrollmenu { overflow: auto; white-space: nowrap; -ms-overflow-style: none;  /* IE and Edge */ scrollbar-width: none;  /* Firefox */ }
