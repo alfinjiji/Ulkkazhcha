@@ -1,3 +1,4 @@
+/* auto verticall scroll for latest news */
 $(function(){
     var tickerLength = $('.v-scroll ul li').length;
     var tickerHeight = $('.v-scroll ul li').outerHeight();
