@@ -15,3 +15,4 @@ header{background: rgb(23,0,97); background: linear-gradient(180deg, rgba(23,0,9
 .pic-50{height: 50px;}
 .bg-black{background-color: black; /*black bg color */}
 .bg-footer{background-color: #170060;}
+.mt-6{margin-top: 3.5rem;} /*margin top 3.5rem*/
