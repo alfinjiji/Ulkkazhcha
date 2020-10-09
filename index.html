@@ -5,75 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>ulkazhcha</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/fc4cf1d018.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg">
-    <!---navbar with logo begin-->
-    <header class="text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                          <nav class="navbar navbar-expand navbar-dark">
-                            <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="logo" alt="ulkazhcha" loading="lazy"></a>
-                              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                                <li class="nav-item">
-                                  <a class="nav-link" href="index.html"><img src="img/notification.png" class="icon" alt="notification" loading="lazy"></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html"><img src="img/search.png" class="icon" alt="search" loading="lazy"></a>
-                                </li>
-                              </ul>
-                          </nav>
-                    </div>
-                </div>
-            </div>
-    </header>    
-    <!--navbar with logo end-->
-    <!--navbar begin-->
-    <section class="custom-nav">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <nav class="navbar  navbar-expand navbar-light">
-                        <div class="scrollmenu">
-                          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                            <li class="nav-item active">
-                              <a class="nav-link pt-1 pl-4 pr-3" href="#"><img src="img/home.png" class="icon" alt="home" loading="lazy"></a>
+   <!---navbar with logo begin-->
+   <header class="text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 d-none d-lg-block">
+                      <nav class="navbar navbar-expand navbar-dark">
+                        <a class="navbar-brand d-none d-lg-block" href="index.html"><img src="img/logo.png" class="logo" alt="ulkazhcha" loading="lazy"></a>
+                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link" href="index.html"><img src="img/notification.png" class="icon" alt="notification" loading="lazy"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link pl-3 pr-3 text-danger text-uppercase" href="news.html">Covid-19</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-3 pr-3 text-white text-uppercase" href="news.html">Local</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-3 pr-3 text-white text-uppercase" href="news.html">Entertainment</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-3 pr-3 text-white text-uppercase" href="news.html">Technology</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-3 pr-3 text-white text-uppercase" href="news.html">contact us</a>
+                                <a class="nav-link" href="index.html"><img src="img/search.png" class="icon" alt="search" loading="lazy"></a>
                             </li>
                           </ul>
-                        </div>
                       </nav>
                 </div>
             </div>
         </div>
-    </section>
-    <!--navbar end-->
+</header>    
+<!--navbar with logo end-->
+<!--navbar begin-->
+<section class="custom-nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand d-lg-none" href="index.html"><img src="img/logo.png" class="logo" alt="ulkazhcha" loading="lazy"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link pt-1 pl-2 pr-3 d-none d-lg-block" href="index.html"><img src="img/home.png" class="icon" alt="home" loading="lazy"></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link pl-3 pr-3 text-danger text-uppercase" href="news.html">Covid-19</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link pl-3 pr-3 text-white text-uppercase" href="news.html">Local</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link pl-3 pr-3 text-white text-uppercase" href="news.html">Entertainment</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link pl-3 pr-3 text-white text-uppercase" href="#">Technology</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link pl-3 pr-3 text-white text-uppercase" href="#">contact us</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!--navbar end-->
     <!--news carousel and latest news begin-->
     <section class="text-white">
         <div class="container py-5">
             <div class="row">
                 <!--news carousel begin-->
-                <div class="col-lg-6">
-                    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                <div class="col-lg-6 py-2">
+                    <div id="carouselExampleInterval" class="carousel slide bg-cus-31" data-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active" data-interval="10000">
                             <div class="">
-                              <img src="img/images (27).jpeg" class="card-img-top caro-img-h" alt="...">
+                              <img src="img/images (27).jpeg" class="card-img-top caro-img-h avd-strch" alt="...">
                               <div class="card-body">
                                 <h3 class="card-title">Lorem ipsum is placeholder text commonly used in the graphic</h3>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -82,7 +88,7 @@
                           </div>
                           <div class="carousel-item" data-interval="2000">
                             <div class="">
-                              <img src="img/images (28).jpeg" class="card-img-top caro-img-h" alt="...">
+                              <img src="img/images (28).jpeg" class="card-img-top caro-img-h avd-strch" alt="...">
                               <div class="card-body">
                                 <h3 class="card-title">Lorem ipsum is placeholder text commonly used in the graphic</h3>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -91,7 +97,7 @@
                           </div>
                           <div class="carousel-item">
                             <div class="">
-                              <img src="img/images (30).jpeg" class="card-img-top caro-img-h" alt="...">
+                              <img src="img/images (30).jpeg" class="card-img-top caro-img-h avd-strch" alt="...">
                               <div class="card-body">
                                 <h3 class="card-title">Lorem ipsum is placeholder text commonly used in the graphic</h3>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -110,14 +116,14 @@
                       </div>
                 </div>
                 <!--news carousel end-->
-                <!--news latest news begin-->
+                <!--latest news begin-->
                 <div class="col-lg-6 text-white bg-cus-31 pt-3">
-                    <div class="shadow-sm p-3 mb-5 rounded bg-cus-bdrbtm"><h3 class="text-uppercase">latest news</h3></div>
+                    <div class="shadow-sm p-3 mb-5 rounded border-top border-primary bg-cus-bdrbtm"><h3 class="text-uppercase">latest news</h3></div>
                     <div class="v-scroll">
                     <ul>
                       <li class="py-2">
                         <div class="media">
-                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50" alt="...">
+                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 avd-strch" alt="...">
                             <div class="media-body">
                               <h5 class="mt-0">Center-aligned media Head line 1</h5>
                               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -126,7 +132,7 @@
                       </li>
                       <li class="py-2">
                         <div class="media">
-                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50" alt="...">
+                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 avd-strch" alt="...">
                             <div class="media-body">
                               <h5 class="mt-0">Center-aligned media Head line 2</h5>
                               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -135,7 +141,7 @@
                       </li>
                       <li class="py-2">
                         <div class="media">
-                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50" alt="...">
+                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 avd-strch" alt="...">
                             <div class="media-body">
                               <h5 class="mt-0">Center-aligned media Head line 3</h5>
                               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -144,7 +150,7 @@
                       </li>
                       <li class="py-2">
                         <div class="media">
-                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50" alt="...">
+                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 avd-strch" alt="...">
                             <div class="media-body">
                               <h5 class="mt-0">Center-aligned media Head line 4</h5>
                               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -153,7 +159,7 @@
                       </li>
                       <li class="py-2">
                         <div class="media">
-                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50" alt="...">
+                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 avd-strch" alt="...">
                             <div class="media-body">
                               <h5 class="mt-0">Center-aligned media Head line 5</h5>
                               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -162,7 +168,7 @@
                       </li>
                       <li class="py-2">
                         <div class="media">
-                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50" alt="...">
+                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 avd-strch" alt="...">
                             <div class="media-body">
                               <h5 class="mt-0">Center-aligned media Head line 6</h5>
                               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -171,7 +177,7 @@
                       </li>
                       <li class="py-2">
                         <div class="media">
-                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50" alt="...">
+                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 avd-strch" alt="...">
                             <div class="media-body">
                               <h5 class="mt-0">Center-aligned media Head line 7</h5>
                               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -180,7 +186,7 @@
                       </li>
                       <li class="py-2">
                         <div class="media">
-                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50" alt="...">
+                            <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 avd-strch" alt="...">
                             <div class="media-body">
                               <h5 class="mt-0">Center-aligned media Head line 8</h5>
                               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -200,13 +206,13 @@
         <div class="container text-white">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="shadow-sm p-3 mb-5 rounded bg-cus-bdrbtm"><h3 class="text-uppercase">daily update</h3></div>
+                    <div class="shadow-sm p-3 mb-5 rounded border-top border-primary bg-cus-bdrbtm"><h3 class="text-uppercase">daily update</h3></div>
                 </div>
                 <div class="col-lg-8">
                   <div class="card mb-3 border-0 bg-cus-31">
                     <div class="row no-gutters">
                       <div class="col-md-5">
-                        <img src="img/images (27).jpeg" class="card-img" style="height: 275px;" alt="...">
+                        <img src="img/images (27).jpeg" class="card-img avd-strch" style="height: 275px;" alt="...">
                       </div>
                       <div class="col-md-7">
                         <div class="card-body">
@@ -220,7 +226,7 @@
                 </div>
                 <div class="col-lg-4">
                   <div class="card border-0 bg-cus-31">
-                    <img src="img/images (28).jpeg" style="height: 175px;" class="card-img-top" alt="...">
+                    <img src="img/images (28).jpeg" style="height: 175px;" class="card-img-top avd-strch" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Some quick example text to build on the card title and make up the</h5>
                     </div>
@@ -228,7 +234,7 @@
                 </div>
                 <div class="col-lg-3 py-lg-4">
                   <div class="card mb-3 border-0 bg-cus-31">
-                    <img src="img/images (30).jpeg" class="card-img-top" alt="...">
+                    <img src="img/images (30).jpeg" class="card-img-top avd-strch" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Some quick example text to build on the card title and make up</h5>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -237,7 +243,7 @@
                 </div>
                 <div class="col-lg-3 py-lg-4">
                   <div class="card mb-3 border-0 bg-cus-31">
-                    <img src="img/images (30).jpeg" class="card-img-top" alt="...">
+                    <img src="img/images (30).jpeg" class="card-img-top avd-strch" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Some quick example text to build on the card title and make up</h5>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -246,7 +252,7 @@
                 </div>
                 <div class="col-lg-3 py-lg-4">
                   <div class="card mb-3 border-0 bg-cus-31">
-                    <img src="img/images (30).jpeg" class="card-img-top" alt="...">
+                    <img src="img/images (30).jpeg" class="card-img-top avd-strch" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Some quick example text to build on the card title and make up</h5>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -255,7 +261,7 @@
                 </div>
                 <div class="col-lg-3 py-lg-4">
                   <div class="card mb-3 border-0 bg-cus-31">
-                    <img src="img/images (30).jpeg" class="card-img-top" alt="...">
+                    <img src="img/images (30).jpeg" class="card-img-top avd-strch" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Some quick example text to build on the card title and make up</h5>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -286,7 +292,10 @@
           <div class="col-lg-4">
             <div class="media border-bottom border-dark pt-1">
               <div class="mx-2">
-                <iframe class="embed-responsive-item border-0" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" style="height: 75px; width: 75px;" allowfullscreen></iframe>
+                <a href="" class="video">
+                  <span></span>
+                  <img src="img/images (33).jpeg" class="my-1 rounded avd-strch" style="height: 75px; width: 75px;" alt="">
+                </a>
               </div>
               <div class="media-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural</p>
@@ -294,7 +303,10 @@
             </div>
             <div class="media border-bottom border-dark pt-1">
               <div class="mx-2">
-                <iframe class="embed-responsive-item border-0" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" style="height: 75px; width: 75px;" allowfullscreen></iframe>
+                <a href="" class="video">
+                  <span></span>
+                  <img src="img/images (33).jpeg" class="my-1 rounded avd-strch" style="height: 75px; width: 75px;" alt="">
+                </a>
               </div>
               <div class="media-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural</p>
@@ -302,7 +314,10 @@
             </div>
             <div class="media border-bottom border-dark pt-1">
               <div class="mx-2">
-                <iframe class="embed-responsive-item border-0" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" style="height: 75px; width: 75px;" allowfullscreen></iframe>
+                <a href="" class="video">
+                  <span></span>
+                  <img src="img/images (33).jpeg" class="my-1 rounded avd-strch" style="height: 75px; width: 75px;" alt="">
+                </a>
               </div>
               <div class="media-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural</p>
@@ -310,7 +325,10 @@
             </div>
             <div class="media border-bottom border-dark pt-1">
               <div class="mx-2">
-                <iframe class="embed-responsive-item border-0" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" style="height: 75px; width: 75px;" allowfullscreen></iframe>
+                <a href="" class="video">
+                  <span></span>
+                  <img src="img/images (33).jpeg" class="my-1 rounded avd-strch" style="height: 75px; width: 75px;" alt="">
+                </a>
               </div>
               <div class="media-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural</p>
@@ -318,7 +336,10 @@
             </div>
             <div class="media border-bottom border-dark pt-1">
               <div class="mx-2">
-                <iframe class="embed-responsive-item border-0" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" style="height: 75px; width: 75px;" allowfullscreen></iframe>
+                <a href="" class="video">
+                  <span></span>
+                  <img src="img/images (33).jpeg" class="my-1 rounded avd-strch" style="height: 75px; width: 75px;" alt="">
+                </a>
               </div>
               <div class="media-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural</p>
@@ -332,14 +353,14 @@
     <!--Video News end-->
     <!--Sports News-->
     <section class="text-white py-lg-4">
-      <div class="container bg-cus-31">
+      <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <div class="shadow-sm p-3 mb-5 rounded bg-cus-bdrbtm"><h3 class="text-uppercase">sports</h3></div>
+            <div class="shadow-sm p-3 mb-5 rounded border-top border-primary bg-cus-bdrbtm"><h3 class="text-uppercase">sports</h3></div>
           </div>
           <div class="col-lg-6">
-            <div class="card mb-3 border-0 bg">
-              <img src="img/images (27).jpeg" class="card-img-top" alt="...">
+            <div class="card mb-3 border-0 bg-cus-31">
+              <img src="img/images (27).jpeg" class="card-img-top avd-strch" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -350,49 +371,49 @@
           <div class="col-lg-6">
 
             <div class="card-group pb-lg-4">
-              <div class="card mx-1 bg">
-                <img src="img/images (27).jpeg" class="card-img-top" alt="...">
+              <div class="card mx-1 bg-cus-31">
+                <img src="img/images (27).jpeg" class="card-img-top avd-strch" alt="...">
                 <div class="card-body">
                   <p class="card-text">This is a wider card with supporting .</p>
                 </div>
               </div>
-              <div class="card mx-1 bg">
-                <img src="img/images (27).jpeg" class="card-img-top" alt="...">
+              <div class="card mx-1 bg-cus-31">
+                <img src="img/images (27).jpeg" class="card-img-top avd-strch" alt="...">
                 <div class="card-body">
                   <p class="card-text">This is a wider card with supporting .</p>
                 </div>
               </div>
-              <div class="card mx-1 bg">
-                <img src="img/images (27).jpeg" class="card-img-top" alt="...">
+              <div class="card mx-1 bg-cus-31">
+                <img src="img/images (27).jpeg" class="card-img-top avd-strch" alt="...">
                 <div class="card-body">
                   <p class="card-text">This is a wider vhh hg hhj k card with supporting ..</p>
                 </div>
               </div>
             </div>
             <div class="pb-3">
-            <div class="media px-1 py-1  pt-3 bg border-bottom border-dark">
-              <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 px-2" alt="...">
+            <div class="media px-1 py-1  pt-3 bg-cus-31 border-bottom border-dark">
+              <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 px-2 avd-strch" alt="...">
               <div class="media-body">
                 <h5 class="mt-0">Center-aligned media Head line 1 ghghghghg</h5>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
-            <div class="media px-1 py-2 bg border-bottom border-dark">
-              <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 px-2" alt="...">
+            <div class="media px-1 py-2 bg-cus-31 border-bottom border-dark">
+              <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 px-2 avd-strch" alt="...">
               <div class="media-body">
                 <h5 class="mt-0">Center-aligned media Head line 2</h5>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
-            <div class="media px-1 py-2 bg border-bottom border-dark">
-              <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 px-2" alt="...">
+            <div class="media px-1 py-2 bg-cus-31 border-bottom border-dark">
+              <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 px-2 avd-strch" alt="...">
               <div class="media-body">
                 <h5 class="mt-0">Center-aligned media Head line 3</h5>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
-            <div class="media px-1 py-2 pb-3 bg">
-              <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 px-2" alt="...">
+            <div class="media px-1 py-2  bg-cus-31 pb-3 bg">
+              <img src="img/images (27).jpeg" class="align-self-center mr-3 pic-50 px-2 avd-strch" alt="...">
               <div class="media-body">
                 <h5 class="mt-0">Center-aligned media Head line 4</h5>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -407,9 +428,28 @@
     <!--footer-->
     <footer class="bg-footer mt-4">
       <div class="container">
-        <div class="text-center py-2">
-          <p class="text-white">copyright@2020</p>
-        </div>
+       <div class="d-flex py-4">
+          <div class="col-md-4 d-flex-row py-2">
+              <h5 class="text-white">About Us</h5>
+              <p class="text-left text-muted">Lorem ipsum dolor sit, amet consectetur 
+                  adipisicing elit. Fugiat, provident! Lorem ipsum, dolor sit amet 
+                  consectetur adipisicing elit. Quaerat, maiores!</p>
+          </div>
+          <div class="col-md-4 d-flex-row py-2 d-none d-md-block"></div>
+          <div class="col-md-4 d-flex-row py-2">
+              <h5 class="text-white">Follow Us</h5>
+              <p class="text-left text-muted">Let us be social</p>
+              <div class="text-white">
+                  <i class="fab fa-facebook-f px-1"></i>
+                  <i class="fab fa-instagram px-1"></i>
+                  <i class="fab fa-twitter px-1"></i>
+                  <i class="fab fa-youtube px-1"></i>
+              </div>
+          </div>
+       </div>
+          <div class="col-lg-12 text-center py-4">
+              <p class="text-white">copyright@Ulkazhcha 2020</p>
+          </div>
       </div>
     </footer>
     <!--footer end-->
