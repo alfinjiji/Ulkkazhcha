@@ -7,7 +7,7 @@ header{background: rgb(23,0,97); background: linear-gradient(180deg, rgba(23,0,9
 .scrollmenu { overflow: auto; white-space: nowrap; -ms-overflow-style: none;  /* IE and Edge */ scrollbar-width: none;  /* Firefox */ }
 .caro-img-h{height: 400px;}/*carousel image height*/
 /*vertical auto scroll for latest news */
-.v-scroll{height:390px; background-color: #313131; overflow:hidden;}
+.v-scroll{height:20vmax; background-color: #313131; overflow:hidden;}
 .v-scroll ul{list-style:none;position:relative;}
 .v-scroll li{height:100px;border-bottom:2px solid #3e3e3e;}
 .bg-cus-31{background-color: #313131;}
@@ -20,6 +20,11 @@ header{background: rgb(23,0,97); background: linear-gradient(180deg, rgba(23,0,9
 .navbar-toggler:focus,.navbar-toggler:active,.navbar-toggler-icon:focus { outline: none; box-shadow: none; }
 /* avoid image stretching */
 .avd-strch{ object-fit: cover; object-position: center center;}
+/*image height*/
+.img-h-6{height:6vmax;}
+.img-h-7{height:7vmax;}
+.img-h-9{height:9vmax;}
+.img-h-15{height:15vmax;}
 /* video icon */
 a.video { float: left; position: relative; opacity: 0.8; }
 a.video span { width: 100%; height: 100%; position: absolute; background: url("../img/play.png") no-repeat; background-position: 50% 50%; background-size: 100%; opacity: 0.7; }
@@ -28,30 +33,31 @@ a.video span { width: 100%; height: 100%; position: absolute; background: url(".
 .module p { margin: 0;}
 .line-clamp {display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;} /* 3 line */
 /*desktop paragraph alignment*/
-.w18 {
-    width: 18vmax;
-  }   
-.w22 {
-    width: 22vmax;
-  }  
-  .w27 {
-    width: 27vmax;
-  } 
-  .lin2 {
-    -webkit-line-clamp: 2; 
-  }
-  .lin5 {
-    -webkit-line-clamp: 5; 
-  }
-  .lin10 {
-    -webkit-line-clamp: 10; 
-  }
-  
-/* media query */
+/* width */
+.w18 {width: 18vmax;}   
+.w22 {width: 22vmax;}  
+.w27 {width: 27vmax;} 
+/* no. of line */
+.lin2 {-webkit-line-clamp: 2;}
+.lin5 {-webkit-line-clamp: 5;}
+.lin10 {-webkit-line-clamp: 10;}
 
+/* media query */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .pic-50{height: 15vmin; width: 22vmin; }
+    .caro-img-h{height: 48vmin;}/*carousel image height*/
+    .v-scroll{height:110vmin; background-color: #313131; overflow:hidden;}
+    /* image size in mobile view */
+    .img-h-6{height:51vmin;}
+    .img-h-7{height:44vmin;}
+    .img-h-9{height:55vmin;}
+    .img-h-15{height:49vmin;}
+    /*mobile paragraph alignment */
+    /* width */
+    .w18 {width: 88vmin;} 
+    .w22 {width: 86vmin;} 
+    .w27 {width: 89vmin;} 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
